@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Lakes AdaBoost Artistic Map</title>
+    <style>
+        body {
+            background: #f0f4f8;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 2rem;
+            color: #2c3e50;
+        }
+        .map-container {
+            margin: 2rem 0;
+            box-shadow: 0 4px 24px rgba(44,62,80,0.12);
+            border-radius: 12px;
+            overflow: hidden;
+            background: #fff;
+        }
+        img {
+            display: block;
+            max-width: 600px;
+            max-height: 450px;
+            width: 100%;
+            height: auto;
+        }
+        .caption {
+            color: #555;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Great Lakes AdaBoost Artistic Map</h1>
+    <div class="map-container">
+    <img src="knn_boundary_only.png" alt="KNN Decision Boundary Artistic Map">
+    </div>
+    <div class="caption">
+    This image shows only the KNN classifier's decision boundary (k=5) between land and water in the Great Lakes region.<br>
+    <em>Created with KNN and a touch of artistry.</em>
+    </div>
+</body>
+</html>
